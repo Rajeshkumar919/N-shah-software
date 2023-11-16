@@ -1,6 +1,6 @@
 import Comman from "./Comman";
 import React from "react";
-const About=(props)=>{
+const About=()=>{
     return(
    
       <>
