@@ -14,7 +14,7 @@ const Comman=()=>{
           <div className="col-10 mx_auto">
           <div className="row">
           <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
-            <h1>Grow Your Business with <strong className="brand-name">N shah Software House </strong></h1>
+            <h1>Grow Your Business with <strong className="brand-name">{} </strong></h1>
             <h2 className="my-3">
             We are the team of talented developer making websites
             </h2>
