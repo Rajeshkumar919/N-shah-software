@@ -9,7 +9,7 @@ const About=(props)=>{
          imgsrc={web}
          visit="/contact"
          btname="Contact Now"
-      </>
+      />
         
     );
 
