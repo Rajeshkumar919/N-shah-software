@@ -1,10 +1,14 @@
-
+import Comman from "./Comman";
 import React from "react";
-const About=()=>{
+const About=(props)=>{
     return(
    
       <>
-      <h1>Welcom About Page</h1>
+     <Comman 
+         name="Welcome to About page"
+         imgsrc={web}
+         visit="/contact"
+         btname="Contact Now"
       </>
         
     );
