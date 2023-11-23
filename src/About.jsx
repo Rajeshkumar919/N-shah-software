@@ -1,18 +1,18 @@
-import Comman from "./Comman";
 import React from "react";
-const About=()=>{
-    return(
-   
-      <>
-     <Comman 
-         name="Welcome to About page"
-         imgsrc={web}
-         visit="/contact"
-         btname="Contact Now"
+import Comman from "./Comman";
+import web from "../src/images/img1.jpg";  // Make sure to import the correct image path
+
+const About = () => {
+  return (
+    <>
+      <Comman
+        name="Welcome to About page"
+        imgsrc={web}
+        visit="/contact"
+        btname="Contact Now"
       />
-        
-    );
+    </>
+  );
+};
 
-  };
-
-  export default About;
+export default About;
